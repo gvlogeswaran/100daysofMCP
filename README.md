@@ -47,7 +47,7 @@ New content goes live daily. Follow this repo to get notified.
 
 | Day | Topic | Phase | Link |
 |-----|-------|-------|------|
-| 01 | The AI Context Problem | The WHY | [Read →](./days/day-01-ai-context-problem.md) |
+| 01 | The AI Context Problem | The WHY | [Read →](./days/Day-01-The-AI-Context-Problem.md) |
 | 02 | How LLMs Actually Work | The WHY | *Available from tomorrow* |
 
 
