@@ -109,4 +109,4 @@ Before we can understand *why* the context gap exists, we need a clear mental mo
 
 *Published: April 8, 2026 | #100DaysOfMCP #ModelContextProtocol #AIEngineering #AgenticAI #LLM #AWSCommunityBuilder*
 
-[← Series Index](https://github.com/YOUR_USERNAME/100-days-of-mcp) | [Day 02 →](./Day-02-How-LLMs-Actually-Work.md)
+[← Series Index](https://github.com/gvlogeswaran/100-days-of-mcp) | [Day 02 →](./Day-02-How-LLMs-Actually-Work.md)
