@@ -1,6 +1,6 @@
 # Day 01 — The AI Context Problem
 
-**#100DaysOfMCP** | Phase 1: The WHY | By Logeswaran GV (AWS Community Builder)
+**100 Days of Context Engineering | Phase 1: The WHY** | By Logeswaran GV (AWS Community Builder)
 
 > *"The problem isn't the model. The problem is access."*
 
@@ -107,6 +107,6 @@ Before we can understand *why* the context gap exists, we need a clear mental mo
 
 ---
 
-*Published: April 8, 2026 | #100DaysOfMCP #ModelContextProtocol #AIEngineering #AgenticAI #LLM #AWSCommunityBuilder*
+*Published: April 8, 2026 | #100DaysOfContextEngineering #ContextEngineering #AIEngineering #AgenticAI #LLM #AWSCommunityBuilder*
 
-[← Series Index](https://github.com/gvlogeswaran/100-days-of-mcp) | [Day 02 →](./Day-02-How-LLMs-Actually-Work.md)
+[← Series Index](https://github.com/YOUR_USERNAME/100-days-of-context-engineering) | [Day 02 →](./Day-02-How-LLMs-Actually-Work.md)

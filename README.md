@@ -1,82 +1,146 @@
-# 100 Days of MCP
+# 🧠 100 Days of Context Engineering
 
-**Model Context Protocol — from first principles to production systems.**
+> **By Logeswaran GV (Loki)** — AWS Community Builder · Financial Markets Infrastructure
+>
+> *"MCP is the plumbing. Context Engineering is the architecture. I started building the pipes — then realised I hadn't shown you the building."*
 
-by [Logeswaran GV](https://www.linkedin.com/in/logeswarangv/)
+Every day for 100 days, I publish one production-grade insight on **Context Engineering** — the discipline of designing, structuring, retrieving, and managing the information space that AI models reason over. From prompt architecture to RAG pipelines to memory systems to MCP as the live context delivery protocol.
 
----
+No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructure informing every pattern.
 
-Every day for 100 days, I publish one focused piece on Model Context Protocol. Each post covers one concept — explained clearly, shown with real examples, and grounded in how things actually work in production.
-
-This is not a tutorial series for demos. It is built for engineers who want to understand MCP well enough to build with it at scale.
-
----
-
-## Why I started this
-
-I have spent a significant amount of time building AI systems on top of cloud infrastructure. The pattern I kept running into was the same: the model was capable, but the architecture around it was not. Data access was fragile. Tool integrations broke. Everything was one-off.
-
-MCP is the answer to that problem — but most of the content online about it stays at the surface. This series goes deeper. I am documenting what I have learned so that other engineers can skip the hard parts and build the right way from day one.
+[![LinkedIn](https://img.shields.io/badge/Follow%20on-LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/logeswarangv/)
+[![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
+[![Progress](https://img.shields.io/badge/Progress-Day%203%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
-## Who this is for
+## 🔄 Why I Changed This from #100DaysOfMCP
 
-- Engineers building AI agents or agentic workflows
-- Developers integrating LLMs into real products
-- Cloud practitioners exploring AI on AWS and other platforms
-- Anyone who wants to understand MCP beyond the official getting-started docs
+I started this series as **#100DaysOfMCP**. Two days in, a respected expert stopped me:
 
----
+> *"You're describing the pipes. You haven't told anyone what flows through them."*
 
-## How this works
+He was right. **MCP is a protocol** — the standardised wire format for delivering context to AI models. **Context Engineering is the discipline** — the full architecture of what the model knows, when it knows it, in what form, and how much of it.
 
-Each day has its own page. Every page follows the same structure:
+MCP is Layer 6 of a 6-layer stack. Teaching only MCP is like teaching USB-C without explaining data centres.
 
-- **The concept** — what it is and why it matters
-- **How it works** — explained simply, without skipping the detail
-- **A concrete example** — from real or realistic production scenarios
-- **What to watch out for** — the mistakes worth avoiding
-- **Where to go next** — pointers to the official docs and related days
+So I expanded. The series now covers the complete Context Engineering discipline — with MCP as its most powerful chapter, not its only one.
 
-New content goes live daily. Follow this repo to get notified.
-
----
-
-## The 100-Day Map
-
-| Day | Topic | Phase | Link |
-|-----|-------|-------|------|
-| 01 | The AI Context Problem | The WHY | [Read →](./days/Day-01-The-AI-Context-Problem.md) |
-| 02 | How LLMs Actually Work | The WHY | [Read →](./days/Day-02-How-LLMs-Actually-Work.md) |
-| 03 | The Old Way: Hardcoded Integrations | The WHY | *Available from next day post* |
-
+**The 6-Layer Context Engineering Stack:**
+```
+Layer 1 — Raw Data Sources        (databases, APIs, documents, streams)
+Layer 2 — Chunking & Indexing     (how data becomes retrievable)
+Layer 3 — Retrieval & RAG         (dynamic context injection)
+Layer 4 — Memory Systems          (short-term, episodic, semantic, long-term)
+Layer 5 — Orchestration           (prompt design, instruction hierarchy, agents)
+Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
+```
 
 ---
 
-## The phases at a glance
+## 📅 Progress Tracker
 
-**Days 1–10 — The WHY**
-Before writing a single line of MCP code, you need to understand what problem it solves and why the solutions before it were not enough. This phase builds that foundation.
-
----
-
-## Follow along
-
-The LinkedIn companion posts for this series go live daily. Each one is a 2-slide carousel paired with a short post that links back here for the full deep dive.
-
-Connect on [LinkedIn](https://www.linkedin.com/in/gvlogeswaran/) if you want the daily updates in your feed.
-
-Star this repo if you want GitHub notifications when new days are published.
+| Day | Status | Topic |
+|-----|--------|-------|
+| 01 | ✅ Posted | The AI Context Problem — Why LLMs fail without engineered context |
+| 02 | ✅ Posted | How LLMs Actually Work — Tokens, context windows, statelessness |
+| 03 | 🔥 Today | Why I Changed This Series — The genuine case for Context Engineering |
+| 04 | 🔜 Coming Next | What Is Context Engineering? — The full discipline defined |
 
 ---
 
-## About
+## 🗺️ Series Curriculum
 
-**Logeswaran GV** — AWS Community Builder with a background in financial technology, market data infrastructure, and electronic trading systems. Currently building and documenting production AI architectures.
+### ✅ Day 1 — The AI Context Problem
+**Phase 1: The WHY**
 
-This series is written from the practitioner's perspective. Every concept connects back to something that matters in a real system.
+Every LLM you've used has the same blind spot — it can't see your database, your files, or what happened in your business today. This day defines the **Context Gap**: the root cause of most AI agent failures in production.
+
+**Key insight:** The problem isn't the model. The problem is the architecture.
+
+[→ Read Day 1](./Phase1_WHY/Day_01_AI_Context_Problem.md)
 
 ---
 
-*Day 2 is live. Come back next post day for Day 3.*
+### ✅ Day 2 — How LLMs Actually Work
+**Phase 1: The WHY**
+
+Before building context systems, you need to understand what you're feeding. This day covers tokens, context windows, statelessness, and the critical difference between **parametric knowledge** (baked into weights) and **contextual knowledge** (what you provide at runtime).
+
+**Key insight:** Every inference starts from zero. Context is the only bridge between the model and your world.
+
+[→ Read Day 2](./Phase1_WHY/Day_02_How_LLMs_Work.md)
+
+---
+
+### 🔥 Day 3 — Why I Changed This Series *(Today)*
+**Phase 1: The WHY**
+
+The honest story behind moving from **#100DaysOfMCP** to **#100DaysOfContextEngineering**. MCP is a protocol. Context Engineering is the discipline that gives that protocol meaning. This day explains the 6-layer CE stack, where MCP lives within it, and why the full picture matters — especially in high-stakes environments like financial markets where wrong context means wrong decisions.
+
+**Key insight:** You can't engineer a context protocol without first understanding what context engineering is.
+
+[→ Read Day 3](./Phase1_WHY/Day_03_Old_Way.md)
+
+---
+
+### 🔜 Day 4 — COMING NEXT
+**What Is Context Engineering? — The Full Discipline Defined**
+
+Tomorrow we step back and map the entire discipline: what separates Context Engineering from prompt engineering, why it's the architectural layer that determines AI agent quality, and the hierarchy that connects RAG, memory, prompts, and MCP into one coherent system.
+
+*Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
+
+---
+
+## 🗂️ Repository Structure
+
+```
+100daysofContextEngineering/
+├── README.md                  ← This master index (updated daily)
+├── Phase1_WHY/                ← Days 01–15  · CE Foundations
+├── Phase2_Architecture/       ← Days 16–25  · Prompt Engineering as Context Design
+├── Phase3_Local_First/        ← Days 26–45  · Dynamic Context — RAG & Memory
+├── Phase4_Primitives/         ← Days 46–60  · MCP — The Live Context Protocol
+├── Phase5_Production/         ← Days 61–75  · MCP at Production Scale
+├── Phase6_Clients/            ← Days 76–82  · Multi-Agent Clients & Hosts
+├── Phase7_Advanced/           ← Days 83–90  · Advanced Multi-Agent Patterns
+├── Phase8_Capstone/           ← Days 91–100 · Enterprise Capstone & Mastery
+├── Github/                    ← Deep-dive articles (published days only)
+├── Instagram/                 ← Instagram caption files
+├── Carousel/                  ← LinkedIn carousel PDFs
+└── _template/                 ← Reusable daily post template
+```
+
+---
+
+## 👤 About the Author
+
+**Logeswaran GV (Loki)**
+
+17+ years in financial markets infrastructure — pre/post trade systems, electronic trading, market data. AWS Community Builder (4 years).
+
+The financial markets lens is not incidental. In electronic trading, context failures don't mean bad answers — they mean wrong trades. That operational stakes mindset runs through every post in this series.
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/logeswarangv/)
+- 🐙 [GitHub](https://github.com/gvlogeswaran/100daysofContextEngineering)
+- 🏷️ [#100DaysOfContextEngineering](https://www.linkedin.com/search/results/content/?keywords=%23100DaysOfContextEngineering)
+
+---
+
+## 📌 How to Use This Repo
+
+**Following daily:** Each day's file is self-contained. Start at Day 01 and work sequentially — the series builds deliberately, each day earning the next.
+
+**Returning visitor:** Check the Progress Tracker above. New content drops every day.
+
+**Star ⭐ this repo** to get notified when new days are published.
+
+---
+
+> *"The quality of your AI agent is determined by the quality of your context infrastructure — not the quality of your model."*
+
+---
+
+![Progress](https://img.shields.io/badge/Day%203%20of%20100-In%20Progress-orange?style=for-the-badge)
+*Series started April 2026 · Updated daily*

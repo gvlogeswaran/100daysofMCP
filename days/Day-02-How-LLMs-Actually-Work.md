@@ -1,6 +1,6 @@
 # Day 02 — How LLMs Actually Work
 
-**#100DaysOfMCP** | Phase 1: The WHY | By Logeswaran GV (AWS Community Builder)
+**100 Days of Context Engineering | Phase 1: The WHY** | By Logeswaran GV (AWS Community Builder)
 
 > *"LLMs don't 'know' anything — they process tokens through a narrow window, and everything outside that window doesn't exist."*
 
@@ -94,6 +94,6 @@ Before MCP standardized how systems connect to LLMs, teams solved the context re
 
 ---
 
-*Published: April 10, 2026 | #100DaysOfMCP #ModelContextProtocol #AIEngineering #AgenticAI #AWSCommunityBuilder*
+*Published: April 8, 2026 | #100DaysOfContextEngineering #ContextEngineering #AIEngineering #AgenticAI #AWSCommunityBuilder*
 
-[Day 03 →](./Day-03-The-Old-Way-Hardcoded-Integrations.md)
+[← Day 01](./Day-01-The-AI-Context-Problem.md) | [Day 03 →](./Day-03-The-Old-Way-Hardcoded-Integrations.md)
