@@ -44,8 +44,9 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 |-----|--------|-------|
 | 01 | ✅ Posted | The AI Context Problem — Why LLMs fail without engineered context |
 | 02 | ✅ Posted | How LLMs Actually Work — Tokens, context windows, statelessness |
-| 03 | 🔥 Today | Why I Changed This Series — The genuine case for Context Engineering |
-| 04 | 🔜 Coming Next | What Is Context Engineering? — The full discipline defined |
+| 03 | ✅ Posted | Why I Changed This Series — The genuine case for Context Engineering |
+| 04 | 🔥 Today | What Is Context Engineering? — The full discipline defined |
+| 05 | 🔜 Coming Next | The 4 Types of Context Every LLM Uses
 
 ---
 
@@ -84,10 +85,18 @@ The honest story behind moving from **#100DaysOfMCP** to **#100DaysOfContextEngi
 
 ---
 
-### 🔜 Day 4 — COMING NEXT
+### 🔥 Day 4 — What Is Context Engineering?
 **What Is Context Engineering? — The Full Discipline Defined**
 
-Tomorrow we step back and map the entire discipline: what separates Context Engineering from prompt engineering, why it's the architectural layer that determines AI agent quality, and the hierarchy that connects RAG, memory, prompts, and MCP into one coherent system.
+Context Engineering is the complete practice of designing, building, maintaining, and optimising the flow of information into AI systems. It covers everything from how many tokens you have and what they cost, to how you retrieve relevant data, maintain agent memory, craft instructions, orchestrate multi-step workflows, and deliver context through standardised protocols.
+
+[→ Read Day 4](./Phase1_WHY/Day-04-ContextEngineering-Intro.md)
+---
+
+### 🔜 Day 5 — COMING NEXT
+**The 4 Types of Context Every LLM Uses**
+
+Tomorrow will go one level deeper into the raw material of that stack: the four types of context that actually flow into any LLM at inference time..
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
@@ -142,5 +151,5 @@ The financial markets lens is not incidental. In electronic trading, context fai
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%203%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%204%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
