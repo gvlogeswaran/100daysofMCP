@@ -10,7 +10,7 @@ No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructu
 
 [![LinkedIn](https://img.shields.io/badge/Follow%20on-LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/logeswarangv/)
 [![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
-[![Progress](https://img.shields.io/badge/Progress-Day%203%20of%20100-brightgreen?style=flat)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-Day%205%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
@@ -45,8 +45,10 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 | 01 | ✅ Posted | The AI Context Problem — Why LLMs fail without engineered context |
 | 02 | ✅ Posted | How LLMs Actually Work — Tokens, context windows, statelessness |
 | 03 | ✅ Posted | Why I Changed This Series — The genuine case for Context Engineering |
-| 04 | 🔥 Today | What Is Context Engineering? — The full discipline defined |
-| 05 | 🔜 Coming Next | The 4 Types of Context Every LLM Uses
+| 04 | ✅ Posted | What Is Context Engineering? — The full discipline defined |
+| 05 | 🔥 Today | The 4 Types of Context Every LLM Uses
+| 06 | 🔜 Coming Next | The Context Window Is Your Most Valuable Real Estate
+
 
 ---
 
@@ -93,14 +95,25 @@ Context Engineering is the complete practice of designing, building, maintaining
 [→ Read Day 4](./Phase1_WHY/Day-04-ContextEngineering-Intro.md)
 ---
 
-### 🔜 Day 5 — COMING NEXT
+### 🔥 Day 5 — COMING NEXT
 **The 4 Types of Context Every LLM Uses**
 
-Tomorrow will go one level deeper into the raw material of that stack: the four types of context that actually flow into any LLM at inference time..
+The four types are: Parametric, Instructional, Conversational, and Retrieved. Each has distinct properties, distinct failure modes, and distinct engineering requirements.
+
+
+[→ Read Day 5](./Phase1_WHY/Day-05-MCP-The-Big-Idea.md)
+---
+
+### 🔜 Day 6 — COMING NEXT
+**The Context Window Is Your Most Valuable Real Estate**
+
+Tomorrow will go one level deeper into Your Context Window Is Your Most Valuable Resource..
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
 ---
+
+
 
 ## 🗂️ Repository Structure
 
@@ -151,5 +164,5 @@ The financial markets lens is not incidental. In electronic trading, context fai
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%204%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%205%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
