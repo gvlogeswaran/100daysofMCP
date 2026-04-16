@@ -10,7 +10,7 @@ No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructu
 
 [![LinkedIn](https://img.shields.io/badge/Follow%20on-LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/logeswarangv/)
 [![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
-[![Progress](https://img.shields.io/badge/Progress-Day%205%20of%20100-brightgreen?style=flat)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-Day%206%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
@@ -46,8 +46,9 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 | 02 | ✅ Posted | How LLMs Actually Work — Tokens, context windows, statelessness |
 | 03 | ✅ Posted | Why I Changed This Series — The genuine case for Context Engineering |
 | 04 | ✅ Posted | What Is Context Engineering? — The full discipline defined |
-| 05 | 🔥 Today | The 4 Types of Context Every LLM Uses
-| 06 | 🔜 Coming Next | The Context Window Is Your Most Valuable Real Estate
+| 05 | ✅ Posted | The 4 Types of Context Every LLM Uses
+| 06 | 🔥 Today | The Context Window Is Your Most Valuable Real Estate
+| 07 | 🔜 Coming Next | The 5 Enemies of Good Context
 
 
 ---
@@ -76,7 +77,7 @@ Before building context systems, you need to understand what you're feeding. Thi
 
 ---
 
-### 🔥 Day 3 — Why I Changed This Series *(Today)*
+### ✅ Day 3 — Why I Changed This Series *(Today)*
 **Phase 1: The WHY**
 
 The honest story behind moving from **#100DaysOfMCP** to **#100DaysOfContextEngineering**. MCP is a protocol. Context Engineering is the discipline that gives that protocol meaning. This day explains the 6-layer CE stack, where MCP lives within it, and why the full picture matters — especially in high-stakes environments like financial markets where wrong context means wrong decisions.
@@ -87,7 +88,7 @@ The honest story behind moving from **#100DaysOfMCP** to **#100DaysOfContextEngi
 
 ---
 
-### 🔥 Day 4 — What Is Context Engineering?
+### ✅ Day 4 — What Is Context Engineering?
 **What Is Context Engineering? — The Full Discipline Defined**
 
 Context Engineering is the complete practice of designing, building, maintaining, and optimising the flow of information into AI systems. It covers everything from how many tokens you have and what they cost, to how you retrieve relevant data, maintain agent memory, craft instructions, orchestrate multi-step workflows, and deliver context through standardised protocols.
@@ -95,7 +96,7 @@ Context Engineering is the complete practice of designing, building, maintaining
 [→ Read Day 4](./Phase1_WHY/Day-04-ContextEngineering-Intro.md)
 ---
 
-### 🔥 Day 5 — COMING NEXT
+### ✅ Day 5 — Four Types of Context Every LLM Uses
 **The 4 Types of Context Every LLM Uses**
 
 The four types are: Parametric, Instructional, Conversational, and Retrieved. Each has distinct properties, distinct failure modes, and distinct engineering requirements.
@@ -104,10 +105,18 @@ The four types are: Parametric, Instructional, Conversational, and Retrieved. Ea
 [→ Read Day 5](./Phase1_WHY/Day-05-MCP-The-Big-Idea.md)
 ---
 
-### 🔜 Day 6 — COMING NEXT
+### 🔥 Day 6 — The Context Window Is Your Most Valuable Real Estate
 **The Context Window Is Your Most Valuable Real Estate**
 
-Tomorrow will go one level deeper into Your Context Window Is Your Most Valuable Resource..
+The context window is a constrained strategic resource. Every token is an investment. Every token in the wrong position reduces the quality of the model's output. And because of a well-documented research finding called "Lost in the Middle," where you place information matters as much as what information you include.
+
+[→ Read Day 6](./Phase1_WHY/Day-06-Context-window.md)
+---
+
+### 🔜 Day 7 — COMING NEXT
+**The Context Window Is Your Most Valuable Real Estate**
+
+Tomorrow will go one level deeper into The Five Enemies: Defending Context Quality..
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
@@ -164,5 +173,5 @@ The financial markets lens is not incidental. In electronic trading, context fai
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%205%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%206%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
