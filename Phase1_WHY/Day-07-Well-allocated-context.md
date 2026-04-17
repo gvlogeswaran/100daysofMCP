@@ -6,7 +6,7 @@
 
 ---
 
-## Explanation of Day Topic
+## Explanation of Day Topic 
 
 You have a well-allocated context window. You're retrieving from good sources. Your prompts are clear. And your AI is still giving wrong answers.
 
@@ -277,4 +277,4 @@ Now that you understand what degrades context quality, tomorrow we draw the clea
 
 *#100DaysOfContextEngineering #ContextEngineering #DataQuality #RAG #AIEngineering #AWSCommunityBuilder*
 
-[← Day 06](./Day-06-MCP-Origin-Story.md) | [Day 08 →](./Day-08-The-MCP-Ecosystem.md)
+[← Day 06](./Day-06-Context-window.md) | [Day 08 →](./Day-08-The-MCP-Ecosystem.md)

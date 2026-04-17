@@ -115,19 +115,17 @@ The context window is a constrained strategic resource. Every token is an invest
 ---
 
 ### 🔥 Day 7 — Context Engineering vs Prompt Engineering
-**The Context Window Is Your Most Valuable Real Estate**
+** The 5 Enemies of Good Context**
 
 The culprit is almost always one of five context quality enemies: noise, contradiction, staleness, over-compression, and under-specification. These are the silent killers of production AI systems. They're invisible until something breaks, and they're entirely within the Context Engineer's control to prevent.
 
-
-[→ Read Day 7](./Phase1_WHY/Day-07-Well-allocated context.md)
+[→ Read Day 7](./Phase1_WHY/Day-07-Well-allocated-context.md)
 ---
-
 
 ### 🔜 Day 8 — COMING NEXT
 **The Context Window Is Your Most Valuable Real Estate**
 
-Tomorrow will go one level deeper into Context Engineering vs Prompt Engineering..
+Tomorrow will go one level deeper into Context Engineering vs Prompt Engineering in detail..
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
