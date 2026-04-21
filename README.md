@@ -10,7 +10,7 @@ No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructu
 
 [![LinkedIn](https://img.shields.io/badge/Follow%20on-LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/logeswarangv/)
 [![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
-[![Progress](https://img.shields.io/badge/Progress-Day%208%20of%20100-brightgreen?style=flat)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-Day%209%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
@@ -49,8 +49,9 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 | 05 | ✅ Posted | The 4 Types of Context Every LLM Uses
 | 06 | ✅ Posted | The Context Window Is Your Most Valuable Real Estate
 | 07 | ✅ Posted | The 5 Enemies of Good Context
-| 08 | 🔥 Today | Context Engineering vs Prompt Engineering
-| 09 | 🔜 Coming Next | Context Engineering vs Prompt Engineering
+| 08 | ✅ Posted | Context Engineering vs Prompt Engineering
+| 09 | 🔥 Today | The Context Engineering Stack - 6 Layers
+| 10 | 🔜 Coming Next | Context Engineering vs Prompt Engineering
 
 
 ---
@@ -123,7 +124,7 @@ The culprit is almost always one of five context quality enemies: noise, contrad
 [→ Read Day 7](./Phase1_WHY/Day-07-Well-allocated-context.md)
 ---
 
-### 🔥 Day 8 — Context Engineering vs Prompt Engineering
+### ✅ Day 8 — Context Engineering vs Prompt Engineering
 **The Context Engineering Stack — 6 Layers**
 
 The most common misconception in production AI development is conflating Prompt Engineering with Context Engineering. They are related but fundamentally different disciplines — and understanding the relationship between them determines whether your AI systems scale or plateau.
@@ -131,10 +132,18 @@ The most common misconception in production AI development is conflating Prompt 
 [→ Read Day 8](./Phase1_WHY/Day-08-Context-vs-Promt-Engineering.md)
 ---
 
-### 🔜 Day 9 — The Context Engineering Stack — 6 Layers
+### 🔥 Day 9 — The Context Engineering Stack — 6 Layers
 **The Context Window Is Your Most Valuable Real Estate**
 
-Tomorrow will go one level deeper into Context Engineering vs Prompt Engineering in detail..
+You've heard about RAG. You've implemented retrieval. But your system still feels brittle — queries that should work don't, the agent forgets things it shouldn't, and adding new tools creates unexpected failures elsewhere.
+
+[→ Read Day 9](./Phase1_WHY/Day-09-The-Context-Engineering-Stack.md)
+---
+
+### 🔜 Day 10 — The Model Matters Less Than You Think
+**The Context Window Is Your Most Valuable Real Estate**
+
+Tomorrow will go one level deeper into A smaller model with world-class context beats a bigger model with poor context. Every single time. This is the insight that changes everything..
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
@@ -162,7 +171,7 @@ Tomorrow will go one level deeper into Context Engineering vs Prompt Engineering
 
 ## 👤 About the Author
 
-**Logeswaran GV (Loki)**
+**Logeswaran GV**
 
 17+ years in financial markets infrastructure — pre/post trade systems, electronic trading, market data. AWS Community Builder (4 years).
 
@@ -188,5 +197,5 @@ The financial markets lens is not incidental. In electronic trading, context fai
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%208%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%209%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
