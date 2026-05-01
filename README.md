@@ -9,7 +9,7 @@ Every day for 100 days, I publish one production-grade insight on **Context Engi
 No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructure informing every pattern.
 
 [![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
-[![Progress](https://img.shields.io/badge/Progress-Day%216%20of%20100-brightgreen?style=flat)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-Day%217%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
@@ -56,8 +56,9 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 | 13 | ✅ Posted | The Anatomy of a World-Class System Prompt
 | 14 | ✅ Posted | Context Debt: The Silent Killer of AI Systems
 | 15 | ✅ Posted | The 10 Laws of Context Engineering
-| 16 | 🔥 Today | System Prompts Are Architecture Documents
-| 17 | 🔜 Coming Next | The 6 Prompt Patterns Every AI Engineer Must Know
+| 16 | ✅ Posted | System Prompts Are Architecture Documents
+| 17 | 🔥 Today | The 6 Prompt Patterns Every AI Engineer Must Know
+| 17 | 🔜 Coming Next | Chain-of-Thought as Context Scaffolding
 
 
 ---
@@ -183,16 +184,23 @@ These 10 laws are like the periodic table of context engineering. Not everything
 [→ Read Day 15](./Phase1_WHY/Day-15-Context-Engineering-laws.md)
 ---
 
-### 🔥 Day 16 — System Prompts Are Architecture Documents
+### ✅ Day 16 — System Prompts Are Architecture Documents
 
 Every AI system has a foundation. It's not the model. It's not the data. It's the **System Prompt**. 📋🧠 This 200-word block of text defines every decision the model will make. Get it wrong, and you have hallucinations. Get it right, and you have production-grade reasoning
 
 [→ Read Day 16](./Phase2_Architecture/Day-16-System-Prompts.md)
 ---
 
-### 🔜 Day 17 — The 6 Prompt Patterns Every AI Engineer Must Know
+### 🔥 Day 17 — The 6 Prompt Patterns Every AI Engineer Must Know
 
-We will be covering more detail about The 6 Prompt Patterns Every AI Engineer Must Know.
+Zero-shot, few-shot, chain-of-thought, role, template, and meta-prompts. When to use each.
+
+[→ Read Day 17](./Phase2_Architecture/Day_17_Prompt-pattern.md)
+---
+
+### 🔜 Day 18 — The 6 Prompt Patterns Every AI Engineer Must Know
+
+We will be covering more detail about Chain-of-Thought as Context Scaffolding.
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
@@ -231,7 +239,7 @@ The financial markets lens is not incidental. In electronic trading, context fai
 - 🏷️ [#100DaysOfContextEngineering](https://www.linkedin.com/search/results/content/?keywords=%23100DaysOfContextEngineering)
 
 ---
-
+no
 ## 📌 How to Use This Repo
 
 **Following daily:** Each day's file is self-contained. Start at Day 01 and work sequentially — the series builds deliberately, each day earning the next.
@@ -246,5 +254,5 @@ The financial markets lens is not incidental. In electronic trading, context fai
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%216%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%217%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
