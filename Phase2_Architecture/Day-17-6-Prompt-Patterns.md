@@ -311,7 +311,7 @@ def production_compliance_analysis(trade):
 
 #### Official References
 - Wei et al. Chain of Thought Prompting (2022) → https://arxiv.org/abs/2201.11903
-- Anthropic Guide to Prompting → https://docs.anthropic.com/en/docs/build-a-claude-app/prompt-engineering
+- Anthropic Guide to Prompting → https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 
 ---
 
