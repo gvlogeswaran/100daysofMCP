@@ -9,7 +9,7 @@ Every day for 100 days, I publish one production-grade insight on **Context Engi
 No theory fluff. Builder-to-builder. 17+ years of financial markets infrastructure informing every pattern.
 
 [![GitHub Stars](https://img.shields.io/github/stars/gvlogeswaran/100daysofContextEngineering?style=flat&logo=github)](https://github.com/gvlogeswaran/100daysofContextEngineering)
-[![Progress](https://img.shields.io/badge/Progress-Day%217%20of%20100-brightgreen?style=flat)](#progress-tracker)
+[![Progress](https://img.shields.io/badge/Progress-Day%218%20of%20100-brightgreen?style=flat)](#progress-tracker)
 
 ---
 
@@ -57,8 +57,9 @@ Layer 6 — Protocol Delivery       (MCP — live, composable, production-grade)
 | 14 | ✅ Posted | Context Debt: The Silent Killer of AI Systems
 | 15 | ✅ Posted | The 10 Laws of Context Engineering
 | 16 | ✅ Posted | System Prompts Are Architecture Documents
-| 17 | 🔥 Today | The 6 Prompt Patterns Every AI Engineer Must Know
-| 18 | 🔜 Coming Next | Chain-of-Thought as Context Scaffolding
+| 17 | ✅ Posted | The 6 Prompt Patterns Every AI Engineer Must Know
+| 18 | 🔥 Today | Chain-of-Thought as Context Scaffolding
+| 19 | 🔜 Coming Next | Few-Shot Examples: The Most Underused Context Tool
 
 
 ---
@@ -198,9 +199,16 @@ Zero-shot, few-shot, chain-of-thought, role, template, and meta-prompts. When to
 [→ Read Day 17](./Phase2_Architecture/Day-17-6-Prompt-Patterns.md)
 ---
 
-### 🔜 Day 18 — The 6 Prompt Patterns Every AI Engineer Must Know
+### 🔜 Day 18 — Chain-of-Thought as Context Scaffolding
 
-We will be covering more detail about Chain-of-Thought as Context Scaffolding.
+CoT doesn't change the model. It changes the **context structure** that guides the model's output generation.
+
+[→ Read Day 18](./Phase2_Architecture/Day-18-Chain-of-thoughts.md)
+---
+
+### 🔜 Day 19 — Few-Shot Examples: The Most Underused Context Tool
+
+We will be covering more detail about Few-Shot Examples: The Most Underused Context Tool.
 
 *Follow on [LinkedIn](https://www.linkedin.com/in/logeswarangv/) or ⭐ star this repo to be notified.*
 
@@ -254,5 +262,5 @@ no
 
 ---
 
-![Progress](https://img.shields.io/badge/Day%217%20of%20100-In%20Progress-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%218%20of%20100-In%20Progress-orange?style=for-the-badge)
 *Series started April 2026 · Updated daily*
